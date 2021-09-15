@@ -13,6 +13,6 @@ class AppLayout extends Component
      */
     public function render()
     {
-        return view('layouts.app');
+        return view('layouts.app'); //Redirecciona a la vista resources/views/layouts/app.blade.php
     }
 }

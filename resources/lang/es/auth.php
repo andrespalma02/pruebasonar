@@ -1,8 +1,12 @@
 <?php
 
 return [
-    'agree'                     => 'acepto los términos',
     'already_member'            => 'Ya estoy registrado',
+    'agree'                     => 'acepto los términos',
+    'delete_account_btn'        => 'Eliminar cuenta',
+    'delete_account_msg'        => 'Una vez que se elimine su cuenta, todos sus recursos y datos se eliminarán permanentemente. Antes de eliminar su cuenta, descargue cualquier dato o información que desee conservar.',
+    'delete_account_msg_perm'   => 'Elimina permanentemente tu cuenta.',
+    'delete_account_msg_conf_pass' => '¿Estás seguro de que deseas eliminar tu cuenta? Una vez que se elimine su cuenta, todos sus recursos y datos se eliminarán permanentemente. Ingrese su contraseña para confirmar que desea eliminar permanentemente su cuenta.',
     'email'                     => 'Dirección de correo electrónico',
     'failed'                    => 'Estas credenciales no coinciden con nuestros registros.',
     'forgot_password'           => 'Olvidé mi contraseña',
@@ -23,5 +27,10 @@ return [
     'reset_password_title'      => 'Introduzca su nueva contraseña',
     'reset_title'               => 'Correo electrónico para restablecer contraseña',
     'send_password'             => 'Enviar enlace de restablecimiento',
-    'throttle'                  => 'Demasiados intentos de acceso. Por favor intente nuevamente en: segundos segundos. '
+    'throttle'                  => 'Demasiados intentos de acceso. Por favor intente nuevamente en: segundos segundos. ',
+    'forget_password'           => '¿Olvidaste tu contraseña? No hay problema. Simplemente díganos su dirección de correo electrónico y le enviaremos un enlace para restablecer la contraseña que le permitirá elegir una nueva.',
+    'cancel'                    => 'Cancelar',
+    'confirm'                   => 'Confirmar',
+    'register?'                 => '¿No tienes cuenta?',
+    'login?'                    => '¿Ya tienes cuenta'
 ];
